@@ -1,35 +1,50 @@
-# Loop4Labs
+# Welcome to your Expo app 👋
 
-A mobile application designed for musicians and DJs to track, log, and manage their practice sessions and recorded sets.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Overview
+## Get started
 
-Loop4Labs helps you maintain a comprehensive record of your musical journey by providing tools to:
+1. Install dependencies
 
-- Log practice sessions with detailed notes
-- Track recorded sets and performances
-- Monitor your progress over time
-- Organize your creative output
+   ```bash
+   npm install
+   ```
 
-## Features
+2. Start the app
 
-- **Session Logging**: Record details about each practice session including duration, techniques worked on, and personal notes
-- **Set Tracking**: Keep a catalog of your recorded sets and performances
-- **Cross-Platform**: Available on both iOS and Android devices
-- **Progress Monitoring**: Review your practice history and identify patterns in your workflow
+   ```bash
+   npx expo start
+   ```
 
-## Installation
+In the output, you'll find options to open the app in a
 
-_Coming soon_
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-## Usage
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-_Coming soon_
+## Get a fresh project
 
-## License
+When you're ready, run:
 
-_To be determined_
+```bash
+npm run reset-project
+```
 
-## Contact
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-For questions or feedback, please open an issue in this repository.
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
