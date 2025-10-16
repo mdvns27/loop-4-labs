@@ -1,13 +1,14 @@
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View, StyleSheet, Image } from "react-native";
 import { Link } from "expo-router";
+import { GlassView } from "expo-glass-effect";
+import FAB from "../components/FAB";
 
 export default function Index() {
+  const displayAlert = () => {};
+
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Home Screen</Text>
-      <Link href={"/more"} style={styles.link}>
-        Go to about
-      </Link>
+      <FAB onPress={displayAlert} />
     </View>
   );
 }
@@ -15,7 +16,7 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#25292e",
+    backgroundColor: "#ccc",
     alignItems: "center",
     justifyContent: "center",
   },
