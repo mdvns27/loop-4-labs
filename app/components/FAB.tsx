@@ -1,6 +1,7 @@
 import { Pressable, Text, StyleSheet } from "react-native";
 import React from "react";
 import { GlassView } from "expo-glass-effect";
+import { SymbolView } from "expo-symbols";
 interface FABProps {
   onPress?: () => void;
 }
@@ -9,7 +10,9 @@ export default function FAB(props: FABProps) {
   return (
     <GlassView style={styles.button} isInteractive={true}>
       <Pressable onPress={props.onPress}>
-        <Text style={styles.buttonText}>+</Text>
+        <Text style={styles.buttonText}>
+          <SymbolView name="square.and.pencil"></SymbolView>
+        </Text>
       </Pressable>
     </GlassView>
   );
